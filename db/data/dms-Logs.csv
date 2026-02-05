@@ -1,0 +1,5 @@
+ID,action,status,detail,docID,verID,userId,createdAt,createdBy,modifiedAt,modifiedBy
+l1111111-1111-1111-1111-111111111111,UPLOAD,S,Uploaded initial version,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,v1111111-1111-1111-1111-111111111111,user01@acme.com,2026-01-10T09:02:30Z,user01@acme.com,2026-01-10T09:02:30Z,user01@acme.com
+l2222222-2222-2222-2222-222222222222,UPLOAD,S,Uploaded new version (conflictMode=OVERWRITE),aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,v2222222-2222-2222-2222-222222222222,user01@acme.com,2026-01-22T14:08:30Z,user01@acme.com,2026-01-22T14:08:30Z,user01@acme.com
+l3333333-3333-3333-3333-333333333333,DOWNLOAD,S,Downloaded version 2,aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,v2222222-2222-2222-2222-222222222222,admin@acme.com,2026-01-23T03:15:00Z,admin@acme.com,2026-01-23T03:15:00Z,admin@acme.com
+l4444444-4444-4444-4444-444444444444,UPLOAD,S,Uploaded monthly report v1,bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,v3333333-3333-3333-3333-333333333333,admin@acme.com,2026-01-12T02:20:30Z

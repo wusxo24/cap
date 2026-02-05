@@ -4,13 +4,22 @@
   "description": "Development Of Metadata Management System For Documents in SAP",
   "dependencies": {
     "@sap/cds": "^9",
+    "@sap/generator-fiori": "^1.20.0",
     "express": "^4"
   },
   "devDependencies": {
-    "@cap-js/sqlite": "^2"
+    "@cap-js/sqlite": "^2.1.2",
+    "cds-plugin-ui5": "^0.13.0"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-dms": "cds watch --open dms.dms/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
-  "private": true
+  "private": true,
+  "sapux": [
+    "app/dms"
+  ],
+  "workspaces": [
+    "app/*"
+  ]
 }
